@@ -1,0 +1,19 @@
+{
+  "name": "awesome-fable5.5-prompts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Community Claude Fable 5.5 prompts and video examples, with original source attribution.",
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "import": "node scripts/import.ts",
+    "check:source": "node scripts/import.ts --check",
+    "generate": "node scripts/generate.ts",
+    "check": "node scripts/check.ts",
+    "check:links": "node scripts/check-links.ts",
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "validate": "npm run typecheck && npm test && npm run check"
+  },
+  "devDependencies": { "@types/node": "24.10.0", "typescript": "5.9.3" }
+}
