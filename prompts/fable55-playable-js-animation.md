@@ -8,7 +8,7 @@ The prompt asks for a playable 15-second animation in pure JavaScript, combining
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-playable-js-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [Scrappy](https://x.com/Scrappy__4) · [Original X post](https://x.com/Scrappy__4/status/2105866966988661167)
+Original author: Scrappy · [Original X post](https://x.com/Scrappy__4/status/2105866966988661167)
 
 ## Original English prompt
 

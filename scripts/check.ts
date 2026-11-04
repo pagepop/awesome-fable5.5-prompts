@@ -19,6 +19,9 @@ for (const [name, content] of expected) {
     const link = match[1] ?? match[2]!;
     if (link.startsWith('https://')) {
       const target = new URL(link.replaceAll('&amp;', '&'));
+      if (['x.com', 'twitter.com'].includes(target.hostname)) {
+        assert(/^\/[A-Za-z0-9_]+\/status\/\d+$/.test(target.pathname), `${name}: attribution must link only to the original post, not a profile`);
+      }
       assert(!/\.(?:mp4|mov|webm|m4v|mkv|avi)$/i.test(target.pathname), `${name}: direct media navigation must point to the case page`);
       if (match[2]) assert.notEqual(target.hostname, 'agent-imagex.pagepop.cn', `${name}: CDN links are for image sources, not navigation`);
       continue;

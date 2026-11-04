@@ -8,7 +8,7 @@ Explore a complex 3D Rube Goldberg machine focused on physics, graphics, and vis
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-rube-goldberg-machine?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [imjustnewatai](https://x.com/imjustnewatai) · [Original X post](https://x.com/imjustnewatai/status/2105889407056109991)
+Original author: imjustnewatai · [Original X post](https://x.com/imjustnewatai/status/2105889407056109991)
 
 ## Original English prompt
 

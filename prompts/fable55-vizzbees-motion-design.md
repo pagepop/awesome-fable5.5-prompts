@@ -8,7 +8,7 @@ A Vizzbees brand animation presents product UI and visual examples. Explore how 
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-vizzbees-motion-design?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [Blushney](https://x.com/Blushneyy) · [Original X post](https://x.com/Blushneyy/status/2106893568828928305)
+Original author: Blushney · [Original X post](https://x.com/Blushneyy/status/2106893568828928305)
 
 ## Original English prompt
 

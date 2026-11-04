@@ -8,7 +8,7 @@ Compose a symphony, then record it as a video. Four movements pair the music wit
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-symphony-visualization?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [imjustnewatai](https://x.com/imjustnewatai) · [Original X post](https://x.com/imjustnewatai/status/2109191246715462070)
+Original author: imjustnewatai · [Original X post](https://x.com/imjustnewatai/status/2109191246715462070)
 
 ## Original English prompt
 

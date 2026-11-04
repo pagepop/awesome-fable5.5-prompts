@@ -8,7 +8,7 @@ Trace human progress, then imagine the next 30 years. Explore an animated histor
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-human-progress-future?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [imjustnewatai](https://x.com/imjustnewatai) · [Original X post](https://x.com/imjustnewatai/status/2106081142143168580)
+Original author: imjustnewatai · [Original X post](https://x.com/imjustnewatai/status/2106081142143168580)
 
 ## Original English prompt
 

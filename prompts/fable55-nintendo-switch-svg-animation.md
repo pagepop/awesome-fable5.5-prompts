@@ -8,7 +8,7 @@ Animate Nintendo Switch controllers snapping into the console, then its screen b
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-nintendo-switch-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [Ishu Agrawal](https://x.com/ishuagra02) · [Original X post](https://x.com/ishuagra02/status/2105779174921359470)
+Original author: Ishu Agrawal · [Original X post](https://x.com/ishuagra02/status/2105779174921359470)
 
 ## Original English prompt
 

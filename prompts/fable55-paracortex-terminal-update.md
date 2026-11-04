@@ -8,7 +8,7 @@ The brief asks for a lively 25-second X video about the Paracortex Terminal and 
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-paracortex-terminal-update?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [RobIW](https://x.com/RobIW_dev) · [Original X post](https://x.com/RobIW_dev/status/2105894547796476225)
+Original author: RobIW · [Original X post](https://x.com/RobIW_dev/status/2105894547796476225)
 
 ## Original English prompt
 

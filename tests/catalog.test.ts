@@ -93,7 +93,7 @@ test('renders nine localized indexes, six linked previews and fourteen complete 
     const prompt = files.get(`prompts/${entry.slug}.md`)!;
     assert.ok(prompt.includes(entry.prompt));
     assert.ok(prompt.includes(entry.source.url));
-    assert.ok(prompt.includes(entry.source.authorUrl));
+    assert.ok(prompt.includes(entry.source.authorName));
     assert.ok(prompt.includes(entry.coverUrl));
     for (const locale of locales) assert.ok(prompt.includes(entry.locales[locale as keyof typeof entry.locales].detailUrl));
   }

@@ -8,7 +8,7 @@ Show Claude’s animated states in a Clawdhouse product video. Match each beat t
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-clawdhouse-product-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [Ishu Agrawal](https://x.com/ishuagra02) · [Original X post](https://x.com/ishuagra02/status/2106138602073641241)
+Original author: Ishu Agrawal · [Original X post](https://x.com/ishuagra02/status/2106138602073641241)
 
 ## Original English prompt
 

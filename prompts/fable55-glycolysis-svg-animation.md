@@ -8,7 +8,7 @@ Follow a glucose molecule through glycolysis and into ethanol in an animated SVG
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-glycolysis-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [Olddonkey](https://x.com/olddonkeyblog) · [Original X post](https://x.com/olddonkeyblog/status/2106508425211330750)
+Original author: Olddonkey · [Original X post](https://x.com/olddonkeyblog/status/2106508425211330750)
 
 ## Original English prompt
 

@@ -8,7 +8,7 @@ Draw a pelican riding a bicycle in SVG. Compare the compact creative brief with 
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-pelican-bicycle-svg?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [can](https://x.com/marmaduke091) · [Original X post](https://x.com/marmaduke091/status/2116233349391962392)
+Original author: can · [Original X post](https://x.com/marmaduke091/status/2116233349391962392)
 
 ## Original English prompt
 

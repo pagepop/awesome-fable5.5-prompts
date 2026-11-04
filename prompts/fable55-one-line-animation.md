@@ -8,7 +8,7 @@ Waves, Mount Fuji, and a seated figure form a ukiyo-e-style scene. Compare the a
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-one-line-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [Tak 🦞](https://x.com/cherry_mx_reds) · [Original X post](https://x.com/cherry_mx_reds/status/2105816670896009224)
+Original author: Tak 🦞 · [Original X post](https://x.com/cherry_mx_reds/status/2105816670896009224)
 
 ## Original English prompt
 

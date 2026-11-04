@@ -8,7 +8,7 @@ Animate 16 Starships launching together, separating stages, and entering space. 
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-starship-launch-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [Olddonkey](https://x.com/olddonkeyblog) · [Original X post](https://x.com/olddonkeyblog/status/2106507742454403485)
+Original author: Olddonkey · [Original X post](https://x.com/olddonkeyblog/status/2106507742454403485)
 
 ## Original English prompt
 

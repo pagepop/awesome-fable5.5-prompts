@@ -8,7 +8,7 @@ The Moss Keeper: a giant robot wakes and flies over a forest. The brief specifie
 
 [Watch](https://www.pagepop.ai/use-cases/fable55-the-moss-keeper?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
-Original author: [Chetaslua](https://x.com/chetaslua) · [Original X post](https://x.com/chetaslua/status/2117169796290916732)
+Original author: Chetaslua · [Original X post](https://x.com/chetaslua/status/2117169796290916732)
 
 ## Original English prompt
 
