@@ -3,19 +3,36 @@ import { readFile, readdir, stat } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { validateData } from './catalog.ts';
-import { renderFiles } from './render.ts';
+import { COPY } from './copy.ts';
+import { renderFiles, trackedUrl } from './render.ts';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const data = validateData(JSON.parse(await readFile(join(root, 'data/cases.json'), 'utf8')));
 const expected = renderFiles(data);
 for (const [name, content] of expected) {
   assert.equal(await readFile(join(root, name), 'utf8'), content, `${name} is stale; run npm run generate`);
-  for (const match of content.matchAll(/\]\(([^)]+)\)|href="([^"]+)"/g)) {
+  // Original prompt code blocks are reference content, not navigation controls.
+  const navigation = content.replace(/^(`{3,})[^\n]*\n[\s\S]*?^\1[ \t]*$/gm, '');
+  assert(!/<(?:video|source)\b/i.test(navigation), `${name}: embedded video bypasses the case page`);
+  assert(!navigation.includes('Direct video') && !navigation.includes('Watch on PagePop'), `${name}: viewing links must use a short label`);
+  for (const match of navigation.matchAll(/\]\(([^)]+)\)|href="([^"]+)"/g)) {
     const link = match[1] ?? match[2]!;
-    if (link.startsWith('https://') || link.startsWith('#')) continue;
+    if (link.startsWith('https://')) {
+      const target = new URL(link.replaceAll('&amp;', '&'));
+      assert(!/\.(?:mp4|mov|webm|m4v|mkv|avi)$/i.test(target.pathname), `${name}: direct media navigation must point to the case page`);
+      if (match[2]) assert.notEqual(target.hostname, 'agent-imagex.pagepop.cn', `${name}: CDN links are for image sources, not navigation`);
+      continue;
+    }
+    if (link.startsWith('#')) continue;
     const resolved = new URL(link, new URL(`../${name}`, import.meta.url));
     assert.equal((await stat(resolved)).isFile(), true, `${name}: broken local link ${link}`);
   }
+}
+assert.equal(COPY['en-US'].preview, 'Watch');
+for (const copy of Object.values(COPY)) assert(!copy.preview.includes('PagePop'), 'Localized watch labels must omit the platform name');
+for (const entry of data.cases) {
+  const document = expected.get(`prompts/${entry.slug}.md`)!;
+  assert(document.includes(`[Watch](${trackedUrl(entry.locales['en-US'].detailUrl, 'en-US', 'prompt-preview')})`), `${entry.slug}: Watch must open its own case page`);
 }
 const prompts = (await readdir(join(root, 'prompts'))).sort();
 assert.deepEqual(prompts, data.cases.map(entry => `${entry.slug}.md`).sort(), 'Unexpected or missing prompt files');

@@ -6,7 +6,7 @@ Trace human progress, then imagine the next 30 years. Explore an animated histor
 
 [![Claude Fable 5.5 video prompt: history and future](https://agent-imagex.pagepop.cn/case-library-assets/content/1c/1cd11a1ae9c18a034c1221554da77feb4378657cb5ae1e6fa638e61f7bc618d8.jpg)](https://www.pagepop.ai/use-cases/fable55-human-progress-future?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-cover-en-US)
 
-[Watch on PagePop](https://www.pagepop.ai/use-cases/fable55-human-progress-future?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US) · [Direct video](https://agent-imagex.pagepop.cn/case-library-assets/content/12/123dbc79623ba4341144b303b4b89250738a9af9d20ffe15a0d65c2130716465.mp4)
+[Watch](https://www.pagepop.ai/use-cases/fable55-human-progress-future?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
 Original author: [imjustnewatai](https://x.com/imjustnewatai) · [Original X post](https://x.com/imjustnewatai/status/2106081142143168580)
 
@@ -18,7 +18,7 @@ The source prompt below is preserved verbatim, including any follow-up instructi
 a video of all human progress, then 30 years into the future.
 ```
 
-## Read on PagePop
+## Languages
 
 - [English](https://www.pagepop.ai/use-cases/fable55-human-progress-future?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-en-US)
 - [简体中文](https://www.pagepop.ai/zh-cn/use-cases/fable55-human-progress-future?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-zh-CN)

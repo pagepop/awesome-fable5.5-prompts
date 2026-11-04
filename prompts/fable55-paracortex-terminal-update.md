@@ -6,7 +6,7 @@ The brief asks for a lively 25-second X video about the Paracortex Terminal and 
 
 [![Paracortex update motion prompt with Claude Fable 5.5](https://agent-imagex.pagepop.cn/case-library-assets/content/62/6221af831a51fae85536c35986e5c1b08747324b096ebb57cfda9a6619cf926a.jpg)](https://www.pagepop.ai/use-cases/fable55-paracortex-terminal-update?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-cover-en-US)
 
-[Watch on PagePop](https://www.pagepop.ai/use-cases/fable55-paracortex-terminal-update?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US) · [Direct video](https://agent-imagex.pagepop.cn/case-library-assets/content/66/6683e1304880091cab0866f159845292968e0d829bd2f9c7bded30acbd1d265d.mp4)
+[Watch](https://www.pagepop.ai/use-cases/fable55-paracortex-terminal-update?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
 Original author: [RobIW](https://x.com/RobIW_dev) · [Original X post](https://x.com/RobIW_dev/status/2105894547796476225)
 
@@ -22,7 +22,7 @@ I'd like a motion design video to present on X for our update to paracortex term
 make it lively
 ```
 
-## Read on PagePop
+## Languages
 
 - [English](https://www.pagepop.ai/use-cases/fable55-paracortex-terminal-update?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-en-US)
 - [简体中文](https://www.pagepop.ai/zh-cn/use-cases/fable55-paracortex-terminal-update?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-zh-CN)

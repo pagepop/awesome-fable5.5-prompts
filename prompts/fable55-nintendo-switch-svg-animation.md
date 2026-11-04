@@ -6,7 +6,7 @@ Animate Nintendo Switch controllers snapping into the console, then its screen b
 
 [![Nintendo Switch SVG startup prompt with Claude Fable 5.5](https://agent-imagex.pagepop.cn/case-library-assets/content/97/9764578466db19d0d20102d16a80c97fba4597655d97fe30a4397cb18d50bf2e.jpg)](https://www.pagepop.ai/use-cases/fable55-nintendo-switch-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-cover-en-US)
 
-[Watch on PagePop](https://www.pagepop.ai/use-cases/fable55-nintendo-switch-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US) · [Direct video](https://agent-imagex.pagepop.cn/case-library-assets/content/b2/b201cd6a0bef4a42cd1cb08aebd3f00a645aa26847d94a4828d22e70660d73da.mp4)
+[Watch](https://www.pagepop.ai/use-cases/fable55-nintendo-switch-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
 Original author: [Ishu Agrawal](https://x.com/ishuagra02) · [Original X post](https://x.com/ishuagra02/status/2105779174921359470)
 
@@ -18,7 +18,7 @@ The source prompt below is preserved verbatim, including any follow-up instructi
 Create an SVG of a Nintendo Switch, with an animation of the controllers getting snapped into the console, and the screen booting up with the logo.
 ```
 
-## Read on PagePop
+## Languages
 
 - [English](https://www.pagepop.ai/use-cases/fable55-nintendo-switch-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-en-US)
 - [简体中文](https://www.pagepop.ai/zh-cn/use-cases/fable55-nintendo-switch-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-zh-CN)

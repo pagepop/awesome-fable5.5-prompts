@@ -6,7 +6,7 @@ Explore a complex 3D Rube Goldberg machine focused on physics, graphics, and vis
 
 [![3D chain-reaction machine prompt for Claude Fable 5.5](https://agent-imagex.pagepop.cn/case-library-assets/content/c3/c38369dcab30a7a3b2592a2ef826e23e5001e9d158628946bd608aecfad42942.jpg)](https://www.pagepop.ai/use-cases/fable55-rube-goldberg-machine?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-cover-en-US)
 
-[Watch on PagePop](https://www.pagepop.ai/use-cases/fable55-rube-goldberg-machine?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US) · [Direct video](https://agent-imagex.pagepop.cn/case-library-assets/content/07/0783b63b97921412698e73c42b2b7ab8d207eb7d0e6f88e43e440485819f2a3d.mp4)
+[Watch](https://www.pagepop.ai/use-cases/fable55-rube-goldberg-machine?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
 Original author: [imjustnewatai](https://x.com/imjustnewatai) · [Original X post](https://x.com/imjustnewatai/status/2105889407056109991)
 
@@ -18,7 +18,7 @@ The source prompt below is preserved verbatim, including any follow-up instructi
 Extremely complicated 3d rube goldberg machine, accurate physics, aaa gfx, vfx
 ```
 
-## Read on PagePop
+## Languages
 
 - [English](https://www.pagepop.ai/use-cases/fable55-rube-goldberg-machine?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-en-US)
 - [简体中文](https://www.pagepop.ai/zh-cn/use-cases/fable55-rube-goldberg-machine?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-zh-CN)

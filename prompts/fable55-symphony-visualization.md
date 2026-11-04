@@ -6,7 +6,7 @@ Compose a symphony, then record it as a video. Four movements pair the music wit
 
 [![Symphony note visualizer prompts with Claude Fable 5.5](https://agent-imagex.pagepop.cn/case-library-assets/content/38/3803896c64ce505172fcb2e04c4b844ee10290f074e7026406a1412f4ee47507.jpg)](https://www.pagepop.ai/use-cases/fable55-symphony-visualization?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-cover-en-US)
 
-[Watch on PagePop](https://www.pagepop.ai/use-cases/fable55-symphony-visualization?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US) · [Direct video](https://agent-imagex.pagepop.cn/case-library-assets/content/cf/cfc022ef8579cd1c561518f32b03d6fbca5d828a43f24e0009b8199e153d4df9.mp4)
+[Watch](https://www.pagepop.ai/use-cases/fable55-symphony-visualization?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
 Original author: [imjustnewatai](https://x.com/imjustnewatai) · [Original X post](https://x.com/imjustnewatai/status/2109191246715462070)
 
@@ -20,7 +20,7 @@ Write a beautiful symphony
 record a video of it when you're done.
 ```
 
-## Read on PagePop
+## Languages
 
 - [English](https://www.pagepop.ai/use-cases/fable55-symphony-visualization?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-en-US)
 - [简体中文](https://www.pagepop.ai/zh-cn/use-cases/fable55-symphony-visualization?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-zh-CN)

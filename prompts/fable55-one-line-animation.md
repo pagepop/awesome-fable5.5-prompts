@@ -6,7 +6,7 @@ Waves, Mount Fuji, and a seated figure form a ukiyo-e-style scene. Compare the a
 
 [![One-line ukiyo-e animation prompt with Claude Fable 5.5](https://agent-imagex.pagepop.cn/case-library-assets/content/5c/5c7a0f0a5754d4f20cfdfbe33e01d9f40549b9a0bf01b50b09d9a206125f6c78.jpg)](https://www.pagepop.ai/use-cases/fable55-one-line-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-cover-en-US)
 
-[Watch on PagePop](https://www.pagepop.ai/use-cases/fable55-one-line-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US) · [Direct video](https://agent-imagex.pagepop.cn/case-library-assets/content/0c/0cfe4f72cd1bf7ac5ea5363a08ca62341bc447e76b6f4b7c8692e93f5275d3b4.mp4)
+[Watch](https://www.pagepop.ai/use-cases/fable55-one-line-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
 Original author: [Tak 🦞](https://x.com/cherry_mx_reds) · [Original X post](https://x.com/cherry_mx_reds/status/2105816670896009224)
 
@@ -18,7 +18,7 @@ The source prompt below is preserved verbatim, including any follow-up instructi
 Hey Fable, please make a cool animation
 ```
 
-## Read on PagePop
+## Languages
 
 - [English](https://www.pagepop.ai/use-cases/fable55-one-line-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-en-US)
 - [简体中文](https://www.pagepop.ai/zh-cn/use-cases/fable55-one-line-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-zh-CN)

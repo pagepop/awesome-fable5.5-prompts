@@ -6,7 +6,7 @@ Follow a glucose molecule through glycolysis and into ethanol in an animated SVG
 
 [![SVG glycolysis animation prompt with Claude Fable 5.5](https://agent-imagex.pagepop.cn/case-library-assets/content/7e/7ee37cef6d1958d347831630178ed86f03b8a759011fe9a3b507005dfba812ee.jpg)](https://www.pagepop.ai/use-cases/fable55-glycolysis-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-cover-en-US)
 
-[Watch on PagePop](https://www.pagepop.ai/use-cases/fable55-glycolysis-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US) · [Direct video](https://agent-imagex.pagepop.cn/case-library-assets/content/4c/4c80795b49ba45527269d328725efc0589c1e688ba9889ee6605d0aee5fe1a11.mp4)
+[Watch](https://www.pagepop.ai/use-cases/fable55-glycolysis-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
 Original author: [Olddonkey](https://x.com/olddonkeyblog) · [Original X post](https://x.com/olddonkeyblog/status/2106508425211330750)
 
@@ -18,7 +18,7 @@ The source prompt below is preserved verbatim, including any follow-up instructi
 an animated SVG, embedded in HTML, of a glucose molecule going through glycolysis and then into ethanol.
 ```
 
-## Read on PagePop
+## Languages
 
 - [English](https://www.pagepop.ai/use-cases/fable55-glycolysis-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-en-US)
 - [简体中文](https://www.pagepop.ai/zh-cn/use-cases/fable55-glycolysis-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-zh-CN)

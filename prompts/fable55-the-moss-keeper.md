@@ -6,7 +6,7 @@ The Moss Keeper: a giant robot wakes and flies over a forest. The brief specifie
 
 [![Hand-drawn forest robot: Claude Fable 5.5 anime prompt](https://agent-imagex.pagepop.cn/case-library-assets/content/86/8641fc62e43e707dfefe43c7891afd55579534ad0d2c000075fb69ee64f02f3c.jpg)](https://www.pagepop.ai/use-cases/fable55-the-moss-keeper?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-cover-en-US)
 
-[Watch on PagePop](https://www.pagepop.ai/use-cases/fable55-the-moss-keeper?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US) · [Direct video](https://agent-imagex.pagepop.cn/case-library-assets/content/35/35809e19a5edc311405bc2868493bbaf2aea8be6ab0d382dacd9a49669c765a5.mp4)
+[Watch](https://www.pagepop.ai/use-cases/fable55-the-moss-keeper?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
 Original author: [Chetaslua](https://x.com/chetaslua) · [Original X post](https://x.com/chetaslua/status/2117169796290916732)
 
@@ -47,7 +47,7 @@ You are free to change any part of the prompt, if it would result, in better res
 The result should feel awe-inspiring, nostalgic, and full of wonder, like the moment an old forgotten dream comes back to life. Before finishing, inspect random frames as still images. If any frame does not look completely like real 2D anime, keep improving it. Do not stop until every frame could pass as a still from a theatrical anime film.
 ```
 
-## Read on PagePop
+## Languages
 
 - [English](https://www.pagepop.ai/use-cases/fable55-the-moss-keeper?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-en-US)
 - [简体中文](https://www.pagepop.ai/zh-cn/use-cases/fable55-the-moss-keeper?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-zh-CN)

@@ -6,7 +6,7 @@ The prompt asks for a playable 15-second animation in pure JavaScript, combining
 
 [![Playable JavaScript animation: Claude Fable 5.5 prompt](https://agent-imagex.pagepop.cn/case-library-assets/content/65/6501f6e1264c5aeae49d81e0b9e5fcf23dc77c4a406e96da26ec19ef14ad1755.jpg)](https://www.pagepop.ai/use-cases/fable55-playable-js-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-cover-en-US)
 
-[Watch on PagePop](https://www.pagepop.ai/use-cases/fable55-playable-js-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US) · [Direct video](https://agent-imagex.pagepop.cn/case-library-assets/content/e5/e5ce3e1452432820b497d83664dab1edc8d6e4b5270694318a7f7280b96616ea.mp4)
+[Watch](https://www.pagepop.ai/use-cases/fable55-playable-js-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-preview-en-US)
 
 Original author: [Scrappy](https://x.com/Scrappy__4) · [Original X post](https://x.com/Scrappy__4/status/2105866966988661167)
 
@@ -18,7 +18,7 @@ The source prompt below is preserved verbatim, including any follow-up instructi
 Create a cool 15s playable animation with pure js
 ```
 
-## Read on PagePop
+## Languages
 
 - [English](https://www.pagepop.ai/use-cases/fable55-playable-js-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-en-US)
 - [简体中文](https://www.pagepop.ai/zh-cn/use-cases/fable55-playable-js-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=prompt-zh-CN)
