@@ -22,8 +22,10 @@ function card(entry: PublicCase, locale: Locale): string {
 function readme(data: PublicData, locale: Locale): string {
   const copy = COPY[locale];
   const languages = LOCALES.map(key => key === locale ? `**${LANGUAGES[key]}**` : `[${LANGUAGES[key]}](${readmeName(key)})`).join(' · ');
-  const top = data.cases.slice(0, 6);
-  const rows = Array.from({ length: 3 }, (_, row) => `<tr>\n${card(top[row * 2]!, locale)}\n${card(top[row * 2 + 1]!, locale)}\n</tr>`).join('\n');
+  const featuredSlugs = ['fable55-the-moss-keeper', 'fable55-the-last-page', 'fable55-threejs-sports-car', 'fable55-threejs-pelican', 'fable55-chris-cinematic-animation', 'fable55-pixel-art-animation'];
+  const featured = featuredSlugs.flatMap(slug => data.cases.filter(entry => entry.slug === slug));
+  const top = [...featured, ...data.cases.filter(entry => !featuredSlugs.includes(entry.slug))].slice(0, 6);
+  const rows = Array.from({ length: Math.ceil(top.length / 2) }, (_, row) => `<tr>\n${top.slice(row * 2, row * 2 + 2).map(entry => card(entry, locale)).join('\n')}\n</tr>`).join('\n');
   const index = data.cases.map((entry, index) => {
     const text = entry.locales[locale];
     return `| ${index + 1} | [${md(text.title)}](prompts/${entry.slug}.md) | [${copy.preview}](${trackedUrl(text.detailUrl, locale, 'index')}) | ${md(entry.source.authorName)} · [${copy.source}](${entry.source.url}) |`;
@@ -34,7 +36,11 @@ function promptDocument(entry: PublicCase): string {
   const longestBackticks = Math.max(0, ...Array.from(entry.prompt.matchAll(/`+/g), match => match[0].length));
   const fence = '`'.repeat(Math.max(3, longestBackticks + 1));
   const links = LOCALES.map(locale => `- [${LANGUAGES[locale]}](${trackedUrl(entry.locales[locale].detailUrl, locale, 'prompt')})`).join('\n');
-  return `<!-- Generated from data/cases.json. -->\n\n# ${entry.title}\n\n${entry.description}\n\n[![${md(entry.title)}](${entry.coverUrl})](${trackedUrl(entry.locales['en-US'].detailUrl, 'en-US', 'prompt-cover')})\n\n[Watch](${trackedUrl(entry.locales['en-US'].detailUrl, 'en-US', 'prompt-preview')})\n\nOriginal author: ${md(entry.source.authorName)} · [Original X post](${entry.source.url})\n\n## Original English prompt\n\nThe source prompt below is preserved verbatim, including any follow-up instructions.\n\n${fence}text\n${entry.prompt}\n${fence}\n\n## Languages\n\n${links}\n\n[All examples](../README.md) · [Rights and attribution](../RIGHTS.md)\n\nThis is a community example credited to its original author. Third-party prompts and media retain their original rights.\n`;
+  const promptHeading = entry.promptKind === 'pagepop-recreation'
+    ? '## Recreate in PagePop'
+    : '## Original English prompt\n\nThe source prompt below is preserved verbatim, including any follow-up instructions.';
+  const authorLabel = entry.promptKind === 'pagepop-recreation' ? 'Original creator' : 'Original author';
+  return `<!-- Generated from data/cases.json. -->\n\n# ${entry.title}\n\n${entry.description}\n\n[![${md(entry.title)}](${entry.coverUrl})](${trackedUrl(entry.locales['en-US'].detailUrl, 'en-US', 'prompt-cover')})\n\n[Watch](${trackedUrl(entry.locales['en-US'].detailUrl, 'en-US', 'prompt-preview')})\n\n${authorLabel}: ${md(entry.source.authorName)} · [Original X post](${entry.source.url})\n\n${promptHeading}\n\n${fence}text\n${entry.prompt}\n${fence}\n\n## Languages\n\n${links}\n\n[All examples](../README.md) · [Rights and attribution](../RIGHTS.md)\n\nThis is a community example credited to its original author. Third-party prompts and media retain their original rights.\n`;
 }
 export function renderFiles(input: PublicData): Map<string, string> {
   const data = validateData(input);

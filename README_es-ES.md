@@ -4,13 +4,13 @@
 
 [English](README.md) · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md) · [日本語](README_ja-JP.md) · [한국어](README_ko-KR.md) · **Español** · [Français](README_fr-FR.md) · [Deutsch](README_de-DE.md) · [Português (Brasil)](README_pt-BR.md)
 
-Explora 14 vídeos de la comunidad: anime dibujado a mano, animación SVG, diseño en movimiento, visualización musical y JavaScript jugable. Lee los prompts originales completos en inglés y mira los ejemplos en PagePop.
+Nuevos ejemplos de la comunidad, seleccionados a diario y actualizados continuamente: anime dibujado a mano, animación SVG, diseño en movimiento, visualización musical y JavaScript jugable. Explora los prompts y mira los ejemplos en PagePop.
 
 **[Ver todos los ejemplos de Fable 5.5 en PagePop](https://www.pagepop.ai/es/use-cases/models/claude-fable-5-5?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=topic-es-ES)** · [Explorar más ejemplos de vídeo](https://www.pagepop.ai/es/use-cases/categories/video?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=category-es-ES)
 
 Ejemplos de la comunidad recopilados por PagePop, con crédito a cada autor y publicación original en X.
 
-## Empieza por estos seis
+## Ejemplos destacados
 
 Haz clic en una portada para ver el vídeo y su prompt en PagePop.
 
@@ -31,35 +31,35 @@ Haz clic en una portada para ver el vídeo y su prompt en PagePop.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://www.pagepop.ai/es/use-cases/fable55-pelican-bicycle-svg?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-es-ES"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/23/239de1f15853e2201e1f69957bba68c2eeef76e35586daa62b5d992e9dccf8df.jpg" alt="Claude Fable 5.5: prompt SVG de un pelícano en bici" width="440"></a>
-<p><strong><a href="https://www.pagepop.ai/es/use-cases/fable55-pelican-bicycle-svg?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-es-ES">Claude Fable 5.5: prompt SVG de un pelícano en bici</a></strong></p>
-<p>Dibuja un pelícano en bicicleta con SVG. Compara la breve instrucción con la animación y observa el diseño del personaje y la bicicleta.</p>
-<p><a href="prompts/fable55-pelican-bicycle-svg.md">Prompt completo</a> · can · <a href="https://x.com/marmaduke091/status/2116233349391962392">Publicación original</a></p>
+<a href="https://www.pagepop.ai/es/use-cases/fable55-threejs-sports-car?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-es-ES"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/8a/8aa5ae16087b86aa3939c795a1a909500295c248554fe046801df7e9cbca097a.jpg" alt="Coche 3D en Three.js: ejemplo de Claude Fable 5.5" width="440"></a>
+<p><strong><a href="https://www.pagepop.ai/es/use-cases/fable55-threejs-sports-car?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-es-ES">Coche 3D en Three.js: ejemplo de Claude Fable 5.5</a></strong></p>
+<p>Explora un deportivo compartido como ejemplo Three.js de Claude Fable 5.5. Observa la carrocería, los materiales, la luz y el movimiento de cámara.</p>
+<p><a href="prompts/fable55-threejs-sports-car.md">Prompt completo</a> · Chetaslua · <a href="https://x.com/chetaslua/status/2116975056014430419">Publicación original</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://www.pagepop.ai/es/use-cases/fable55-symphony-visualization?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-es-ES"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/38/3803896c64ce505172fcb2e04c4b844ee10290f074e7026406a1412f4ee47507.jpg" alt="Sinfonía a notas animadas: prompts Claude Fable 5.5" width="440"></a>
-<p><strong><a href="https://www.pagepop.ai/es/use-cases/fable55-symphony-visualization?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-es-ES">Sinfonía a notas animadas: prompts Claude Fable 5.5</a></strong></p>
-<p>Compón una sinfonía y después graba su video. Cuatro movimientos combinan la música con una visualización de cada nota.</p>
-<p><a href="prompts/fable55-symphony-visualization.md">Prompt completo</a> · imjustnewatai · <a href="https://x.com/imjustnewatai/status/2109191246715462070">Publicación original</a></p>
+<a href="https://www.pagepop.ai/es/use-cases/fable55-threejs-pelican?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-es-ES"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/ce/ce7db36ffd9a941e07fbd64cbe1e7244c94565e58510280b370029e3bdef9af8.jpg" alt="Pelícano ciclista 3D: ejemplo de Claude Fable 5.5" width="440"></a>
+<p><strong><a href="https://www.pagepop.ai/es/use-cases/fable55-threejs-pelican?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-es-ES">Pelícano ciclista 3D: ejemplo de Claude Fable 5.5</a></strong></p>
+<p>Un pelícano monta en bicicleta en 3D. Explora este ejemplo Three.js de Claude Fable 5.5 y la coordinación del personaje, los pedales y las ruedas.</p>
+<p><a href="prompts/fable55-threejs-pelican.md">Prompt completo</a> · Chetaslua · <a href="https://x.com/chetaslua/status/2116882694026269148">Publicación original</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://www.pagepop.ai/es/use-cases/fable55-vizzbees-motion-design?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-es-ES"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/bf/bf94d990bdd797d5539ad505d6973c28ff9dccd15cc1aa021c8b536d1a5f0c82.jpg" alt="Anima la UI de Vizzbees: prompt Claude Fable 5.5" width="440"></a>
-<p><strong><a href="https://www.pagepop.ai/es/use-cases/fable55-vizzbees-motion-design?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-es-ES">Anima la UI de Vizzbees: prompt Claude Fable 5.5</a></strong></p>
-<p>Una animación de Vizzbees presenta la interfaz y ejemplos visuales. Un encargo de una línea deja espacio para definir la dirección creativa.</p>
-<p><a href="prompts/fable55-vizzbees-motion-design.md">Prompt completo</a> · Blushney · <a href="https://x.com/Blushneyy/status/2106893568828928305">Publicación original</a></p>
+<a href="https://www.pagepop.ai/es/use-cases/fable55-chris-cinematic-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-es-ES"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/8a/8a527c7df9e342e46879aba7aa88356942ff799642523ffe0461051d27dc8d55.jpg" alt="Rana mecánica: ejemplo de Claude Fable 5.5" width="440"></a>
+<p><strong><a href="https://www.pagepop.ai/es/use-cases/fable55-chris-cinematic-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-es-ES">Rana mecánica: ejemplo de Claude Fable 5.5</a></strong></p>
+<p>Una rana mecánica de latón despierta en un taller oscuro y un martillo da el giro cómico. Explora este ejemplo animado de Claude Fable 5.5.</p>
+<p><a href="prompts/fable55-chris-cinematic-animation.md">Prompt completo</a> · Chris · <a href="https://x.com/ChrisGPT/status/2117381015069212910">Publicación original</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://www.pagepop.ai/es/use-cases/fable55-glycolysis-svg-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-es-ES"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/7e/7ee37cef6d1958d347831630178ed86f03b8a759011fe9a3b507005dfba812ee.jpg" alt="Anima la glucólisis en SVG con Claude Fable 5.5: prompt" width="440"></a>
-<p><strong><a href="https://www.pagepop.ai/es/use-cases/fable55-glycolysis-svg-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-es-ES">Anima la glucólisis en SVG con Claude Fable 5.5: prompt</a></strong></p>
-<p>Sigue una molécula de glucosa por la glucólisis hasta el etanol en un SVG animado dentro de HTML. Un ejemplo de animación de procesos moleculares.</p>
-<p><a href="prompts/fable55-glycolysis-svg-animation.md">Prompt completo</a> · Olddonkey · <a href="https://x.com/olddonkeyblog/status/2106508425211330750">Publicación original</a></p>
+<a href="https://www.pagepop.ai/es/use-cases/fable55-pixel-art-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-es-ES"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/45/454ecf9c87818975867584c669b18f9714e5e1f312321e0fcd22fedd9654de98.jpg" alt="Dioramas de píxeles: ejemplo de Claude Fable 5.5" width="440"></a>
+<p><strong><a href="https://www.pagepop.ai/es/use-cases/fable55-pixel-art-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-es-ES">Dioramas de píxeles: ejemplo de Claude Fable 5.5</a></strong></p>
+<p>Una terraza, un acuario, una noche de juegos junto al agua y una sala se forman en cuatro escenas de pixel art atribuidas a Fable 5.5.</p>
+<p><a href="prompts/fable55-pixel-art-animation.md">Prompt completo</a> · Synopsis · <a href="https://x.com/abhinavflac/status/2117582497743786159">Publicación original</a></p>
 </td>
 </tr>
 </table>
 
-## Los 14 prompts
+## Explora la colección
 
 | # | Ejemplo | Ver | Autor original / Publicación original |
 | --- | --- | --- | --- |
@@ -77,10 +77,20 @@ Haz clic en una portada para ver el vídeo y su prompt en PagePop.
 | 12 | [JavaScript jugable: prompt para Claude Fable 5.5](prompts/fable55-playable-js-animation.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-playable-js-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Scrappy · [Publicación original](https://x.com/Scrappy__4/status/2105866966988661167) |
 | 13 | [De una frase a ukiyo-e: prompt Claude Fable 5.5](prompts/fable55-one-line-animation.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-one-line-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Tak 🦞 · [Publicación original](https://x.com/cherry_mx_reds/status/2105816670896009224) |
 | 14 | [Claude Fable 5.5: prompt SVG del arranque de Switch](prompts/fable55-nintendo-switch-svg-animation.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-nintendo-switch-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Ishu Agrawal · [Publicación original](https://x.com/ishuagra02/status/2105779174921359470) |
+| 15 | [Rana mecánica: ejemplo de Claude Fable 5.5](prompts/fable55-chris-cinematic-animation.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-chris-cinematic-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Chris · [Publicación original](https://x.com/ChrisGPT/status/2117381015069212910) |
+| 16 | [Combate 2D: ejemplo de Claude Fable 5.5](prompts/fable55-combat-animation.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-combat-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | J A Z I I · [Publicación original](https://x.com/notjazii/status/2117261864904351848) |
+| 17 | [Coche 3D en Three.js: ejemplo de Claude Fable 5.5](prompts/fable55-threejs-sports-car.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-threejs-sports-car?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Chetaslua · [Publicación original](https://x.com/chetaslua/status/2116975056014430419) |
+| 18 | [Pelícano ciclista 3D: ejemplo de Claude Fable 5.5](prompts/fable55-threejs-pelican.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-threejs-pelican?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Chetaslua · [Publicación original](https://x.com/chetaslua/status/2116882694026269148) |
+| 19 | [Velero 3D interactivo: ejemplo de Claude Fable 5.5](prompts/fable55-historical-sailing-ship.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-historical-sailing-ship?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Synopsis · [Publicación original](https://x.com/abhinavflac/status/2116945827738665060) |
+| 20 | [Cinco mundos de píxeles: ejemplo de Claude Fable 5.5](prompts/fable55-post-human-short.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-post-human-short?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Chetaslua · [Publicación original](https://x.com/chetaslua/status/2116878661035106515) |
+| 21 | [Lanzamiento de producto: ejemplo de Claude Fable 5.5](prompts/fable55-motion-launch-video.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-motion-launch-video?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Motion · [Publicación original](https://x.com/motion_so/status/2117287037170778544) |
+| 22 | [Pelícano lunar en SVG: ejemplo de Claude Fable 5.5](prompts/fable55-moon-pelican-svg.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-moon-pelican-svg?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Chris · [Publicación original](https://x.com/ChrisGPT/status/2117495471346176156) |
+| 23 | [Dioramas de píxeles: ejemplo de Claude Fable 5.5](prompts/fable55-pixel-art-animation.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-pixel-art-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Synopsis · [Publicación original](https://x.com/abhinavflac/status/2117582497743786159) |
+| 24 | [Aldea de vóxeles 3D: ejemplo de Claude Fable 5.5](prompts/fable55-mountain-voxel-village.md) | [Ver](https://www.pagepop.ai/es/use-cases/fable55-mountain-voxel-village?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-es-ES) | Synopsis · [Publicación original](https://x.com/abhinavflac/status/2117377130388656569) |
 
 ## Cómo usar la colección
 
-Elige un ejemplo, mira el vídeo y abre su prompt completo. Copia el texto original en inglés y adáptalo a tu proyecto. Las páginas de PagePop también ofrecen títulos, descripciones y prompts localizados.
+Elige un ejemplo, mira el vídeo y abre su prompt. Copia las instrucciones y adáptalas a tu proyecto. Las páginas de PagePop también ofrecen títulos, descripciones y prompts localizados.
 
 ## Comparte un ejemplo
 

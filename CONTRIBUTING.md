@@ -18,14 +18,14 @@ npm ci
 npm run validate
 ```
 
-`data/cases.json` is the only case-data input for generated documents. It contains public metadata, original prompts, production CDN links, author/source attribution, and nine locales. Locale website URLs are canonical in the data; generated website links add GitHub referral UTM parameters. To update public data directly, preserve its strict schema, then regenerate:
+`data/cases.json` is the only case-data input for generated documents. It contains public metadata, prompts, production CDN links, author/source attribution, and localized metadata. Locale website URLs are canonical in the data; generated website links add GitHub referral UTM parameters. To update public data directly, preserve its strict schema, then regenerate:
 
 ```sh
 npm run generate
 npm run validate
 ```
 
-The 14-case launch collection is intentional. A future change to its size or ordering must update the validation contract and tests together. The first two entries are The Moss Keeper and The Last Page. Do not hand-edit generated `README*.md` or `prompts/*.md` files.
+The collection is curated daily and can grow without a fixed case limit. Each case may specify `promptKind: "original"` or `promptKind: "pagepop-recreation"`; an omitted `promptKind` means `original`. Preserve original prompts exactly. PagePop recreation briefs use the heading “Recreate in PagePop” and must not be presented as the creator's original prompt. A publicly available original prompt is not required for inclusion. Do not hand-edit generated `README*.md` or `prompts/*.md` files.
 
 ## Import a catalog snapshot
 
@@ -38,7 +38,7 @@ npm run check:source -- --catalog-root /path/to/catalog
 npm run validate
 ```
 
-The importer selects all cases whose `discovery.modelIds` includes `claude-fable-5-5`, orders them by `popularPinOrder`, and requires exactly 14. It copies the shared original English prompt verbatim, even when a locale has a translated prompt. Each locale must explicitly contain every case. String references use shared metadata; object entries supply their localized title and description. Missing required fields, duplicate ordering, missing locales, invalid attribution, or non-production CDN URLs cause explicit errors. Only whitelisted public fields leave the importer.
+The importer selects all cases whose `discovery.modelIds` includes `claude-fable-5-5`, requires a nonempty collection, and orders it by `popularPinOrder`. It copies the shared English prompt text and optional `promptKind` unchanged, even when a locale has a translated prompt. Each locale must explicitly contain every case. String references use shared metadata; object entries supply their localized title and description. Missing required fields, duplicate ordering, missing locales, invalid provenance, invalid attribution, or non-production CDN URLs cause explicit errors. Only whitelisted public fields leave the importer. The original published prompts have byte-integrity regression checks.
 
 ## Checks
 
