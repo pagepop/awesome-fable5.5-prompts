@@ -4,13 +4,13 @@
 
 **English** · [简体中文](README_zh-CN.md) · [繁體中文](README_zh-TW.md) · [日本語](README_ja-JP.md) · [한국어](README_ko-KR.md) · [Español](README_es-ES.md) · [Français](README_fr-FR.md) · [Deutsch](README_de-DE.md) · [Português (Brasil)](README_pt-BR.md)
 
-Explore 14 community video examples: hand-drawn anime, SVG animation, motion design, music visualization, and playable JavaScript. Read the complete original prompts and watch the examples on PagePop.
+Fresh community examples, curated daily and continuously updated: hand-drawn anime, SVG animation, motion design, music visualization, and playable JavaScript. Explore the prompts and watch the examples on PagePop.
 
 **[Browse all Fable 5.5 examples on PagePop](https://www.pagepop.ai/use-cases/models/claude-fable-5-5?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=topic-en-US)** · [Explore more video examples](https://www.pagepop.ai/use-cases/categories/video?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=category-en-US)
 
 Community examples curated by PagePop, with credit to each original author and X post.
 
-## Start with these six
+## Featured examples
 
 Click a cover to watch the example and read its prompt.
 
@@ -31,35 +31,35 @@ Click a cover to watch the example and read its prompt.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://www.pagepop.ai/use-cases/fable55-pelican-bicycle-svg?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-en-US"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/23/239de1f15853e2201e1f69957bba68c2eeef76e35586daa62b5d992e9dccf8df.jpg" alt="Claude Fable 5.5 SVG prompt for a cycling pelican" width="440"></a>
-<p><strong><a href="https://www.pagepop.ai/use-cases/fable55-pelican-bicycle-svg?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-en-US">Claude Fable 5.5 SVG prompt for a cycling pelican</a></strong></p>
-<p>Draw a pelican riding a bicycle in SVG. Compare the compact creative brief with the cycling animation and its visual detail.</p>
-<p><a href="prompts/fable55-pelican-bicycle-svg.md">Full prompt</a> · can · <a href="https://x.com/marmaduke091/status/2116233349391962392">Original post</a></p>
+<a href="https://www.pagepop.ai/use-cases/fable55-threejs-sports-car?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-en-US"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/8a/8aa5ae16087b86aa3939c795a1a909500295c248554fe046801df7e9cbca097a.jpg" alt="Three.js sports car: Claude Fable 5.5 3D example" width="440"></a>
+<p><strong><a href="https://www.pagepop.ai/use-cases/fable55-threejs-sports-car?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-en-US">Three.js sports car: Claude Fable 5.5 3D example</a></strong></p>
+<p>Explore a sports-car scene shared as a Claude Fable 5.5 Three.js example, with attention to bodywork, materials, lighting and camera movement.</p>
+<p><a href="prompts/fable55-threejs-sports-car.md">Full prompt</a> · Chetaslua · <a href="https://x.com/chetaslua/status/2116975056014430419">Original post</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://www.pagepop.ai/use-cases/fable55-symphony-visualization?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-en-US"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/38/3803896c64ce505172fcb2e04c4b844ee10290f074e7026406a1412f4ee47507.jpg" alt="Symphony note visualizer prompts with Claude Fable 5.5" width="440"></a>
-<p><strong><a href="https://www.pagepop.ai/use-cases/fable55-symphony-visualization?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-en-US">Symphony note visualizer prompts with Claude Fable 5.5</a></strong></p>
-<p>Compose a symphony, then record it as a video. Four movements pair the music with a visualization of every note.</p>
-<p><a href="prompts/fable55-symphony-visualization.md">Full prompt</a> · imjustnewatai · <a href="https://x.com/imjustnewatai/status/2109191246715462070">Original post</a></p>
+<a href="https://www.pagepop.ai/use-cases/fable55-threejs-pelican?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-en-US"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/ce/ce7db36ffd9a941e07fbd64cbe1e7244c94565e58510280b370029e3bdef9af8.jpg" alt="3D cycling pelican: Claude Fable 5.5 Three.js example" width="440"></a>
+<p><strong><a href="https://www.pagepop.ai/use-cases/fable55-threejs-pelican?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-en-US">3D cycling pelican: Claude Fable 5.5 Three.js example</a></strong></p>
+<p>A pelican rides a bicycle in a 3D scene. Explore this Claude Fable 5.5 Three.js example for character modelling, pedalling and coordinated wheel movement.</p>
+<p><a href="prompts/fable55-threejs-pelican.md">Full prompt</a> · Chetaslua · <a href="https://x.com/chetaslua/status/2116882694026269148">Original post</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://www.pagepop.ai/use-cases/fable55-vizzbees-motion-design?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-en-US"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/bf/bf94d990bdd797d5539ad505d6973c28ff9dccd15cc1aa021c8b536d1a5f0c82.jpg" alt="Vizzbees UI motion prompt for Claude Fable 5.5" width="440"></a>
-<p><strong><a href="https://www.pagepop.ai/use-cases/fable55-vizzbees-motion-design?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-en-US">Vizzbees UI motion prompt for Claude Fable 5.5</a></strong></p>
-<p>A Vizzbees brand animation presents product UI and visual examples. Explore how a one-line motion brief leaves room for creative direction.</p>
-<p><a href="prompts/fable55-vizzbees-motion-design.md">Full prompt</a> · Blushney · <a href="https://x.com/Blushneyy/status/2106893568828928305">Original post</a></p>
+<a href="https://www.pagepop.ai/use-cases/fable55-chris-cinematic-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-en-US"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/8a/8a527c7df9e342e46879aba7aa88356942ff799642523ffe0461051d27dc8d55.jpg" alt="Clockwork frog animation: Claude Fable 5.5 example" width="440"></a>
+<p><strong><a href="https://www.pagepop.ai/use-cases/fable55-chris-cinematic-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-en-US">Clockwork frog animation: Claude Fable 5.5 example</a></strong></p>
+<p>A brass mechanical frog wakes in a dim clockwork workshop before a hammer brings a comic ending. Explore this Claude Fable 5.5 animation example.</p>
+<p><a href="prompts/fable55-chris-cinematic-animation.md">Full prompt</a> · Chris · <a href="https://x.com/ChrisGPT/status/2117381015069212910">Original post</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://www.pagepop.ai/use-cases/fable55-glycolysis-svg-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-en-US"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/7e/7ee37cef6d1958d347831630178ed86f03b8a759011fe9a3b507005dfba812ee.jpg" alt="SVG glycolysis animation prompt with Claude Fable 5.5" width="440"></a>
-<p><strong><a href="https://www.pagepop.ai/use-cases/fable55-glycolysis-svg-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-en-US">SVG glycolysis animation prompt with Claude Fable 5.5</a></strong></p>
-<p>Follow a glucose molecule through glycolysis and into ethanol in an animated SVG embedded in HTML. Explore a molecular-process animation brief.</p>
-<p><a href="prompts/fable55-glycolysis-svg-animation.md">Full prompt</a> · Olddonkey · <a href="https://x.com/olddonkeyblog/status/2106508425211330750">Original post</a></p>
+<a href="https://www.pagepop.ai/use-cases/fable55-pixel-art-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=cover-en-US"><img src="https://agent-imagex.pagepop.cn/case-library-assets/content/45/454ecf9c87818975867584c669b18f9714e5e1f312321e0fcd22fedd9654de98.jpg" alt="Pixel diorama animation: Claude Fable 5.5 video example" width="440"></a>
+<p><strong><a href="https://www.pagepop.ai/use-cases/fable55-pixel-art-animation?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=awesome-fable55-prompts&amp;utm_content=title-en-US">Pixel diorama animation: Claude Fable 5.5 video example</a></strong></p>
+<p>A wooden deck, an aquarium, a waterside game night and a furnished living room take shape in four isometric pixel-art scenes attributed to Fable 5.5.</p>
+<p><a href="prompts/fable55-pixel-art-animation.md">Full prompt</a> · Synopsis · <a href="https://x.com/abhinavflac/status/2117582497743786159">Original post</a></p>
 </td>
 </tr>
 </table>
 
-## All 14 prompts
+## Browse the collection
 
 | # | Example | Watch | Original author / Original post |
 | --- | --- | --- | --- |
@@ -77,10 +77,20 @@ Click a cover to watch the example and read its prompt.
 | 12 | [Playable JavaScript animation: Claude Fable 5.5 prompt](prompts/fable55-playable-js-animation.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-playable-js-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Scrappy · [Original post](https://x.com/Scrappy__4/status/2105866966988661167) |
 | 13 | [One-line ukiyo-e animation prompt with Claude Fable 5.5](prompts/fable55-one-line-animation.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-one-line-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Tak 🦞 · [Original post](https://x.com/cherry_mx_reds/status/2105816670896009224) |
 | 14 | [Nintendo Switch SVG startup prompt with Claude Fable 5.5](prompts/fable55-nintendo-switch-svg-animation.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-nintendo-switch-svg-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Ishu Agrawal · [Original post](https://x.com/ishuagra02/status/2105779174921359470) |
+| 15 | [Clockwork frog animation: Claude Fable 5.5 example](prompts/fable55-chris-cinematic-animation.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-chris-cinematic-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Chris · [Original post](https://x.com/ChrisGPT/status/2117381015069212910) |
+| 16 | [2D combat animation: Claude Fable 5.5 example](prompts/fable55-combat-animation.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-combat-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | J A Z I I · [Original post](https://x.com/notjazii/status/2117261864904351848) |
+| 17 | [Three.js sports car: Claude Fable 5.5 3D example](prompts/fable55-threejs-sports-car.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-threejs-sports-car?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Chetaslua · [Original post](https://x.com/chetaslua/status/2116975056014430419) |
+| 18 | [3D cycling pelican: Claude Fable 5.5 Three.js example](prompts/fable55-threejs-pelican.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-threejs-pelican?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Chetaslua · [Original post](https://x.com/chetaslua/status/2116882694026269148) |
+| 19 | [3D sailing ship: Claude Fable 5.5 interactive example](prompts/fable55-historical-sailing-ship.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-historical-sailing-ship?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Synopsis · [Original post](https://x.com/abhinavflac/status/2116945827738665060) |
+| 20 | [Isometric pixel worlds: Claude Fable 5.5 animation example](prompts/fable55-post-human-short.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-post-human-short?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Chetaslua · [Original post](https://x.com/chetaslua/status/2116878661035106515) |
+| 21 | [Product launch motion: Claude Fable 5.5 video example](prompts/fable55-motion-launch-video.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-motion-launch-video?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Motion · [Original post](https://x.com/motion_so/status/2117287037170778544) |
+| 22 | [Moon cycling SVG: Claude Fable 5.5 animation example](prompts/fable55-moon-pelican-svg.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-moon-pelican-svg?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Chris · [Original post](https://x.com/ChrisGPT/status/2117495471346176156) |
+| 23 | [Pixel diorama animation: Claude Fable 5.5 video example](prompts/fable55-pixel-art-animation.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-pixel-art-animation?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Synopsis · [Original post](https://x.com/abhinavflac/status/2117582497743786159) |
+| 24 | [Voxel village: Claude Fable 5.5 interactive 3D example](prompts/fable55-mountain-voxel-village.md) | [Watch](https://www.pagepop.ai/use-cases/fable55-mountain-voxel-village?utm_source=github&utm_medium=referral&utm_campaign=awesome-fable55-prompts&utm_content=index-en-US) | Synopsis · [Original post](https://x.com/abhinavflac/status/2117377130388656569) |
 
 ## How to use
 
-Choose an example, watch the preview, then open its full prompt below. Copy the original English brief and adapt it to your project. The linked PagePop pages also offer localized titles, descriptions, and prompts.
+Choose an example, watch the preview, then open its prompt below. Copy the brief and adapt it to your project. The linked PagePop pages also offer localized titles, descriptions, and prompts.
 
 ## Share an example
 

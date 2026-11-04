@@ -1,21 +1,23 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { importCatalog, validateData } from '../scripts/catalog.ts';
 import { renderFiles } from '../scripts/render.ts';
 
 const locales = ['en-US', 'zh-CN', 'zh-TW', 'ja-JP', 'ko-KR', 'es-ES', 'fr-FR', 'de-DE', 'pt-BR'];
 const slugs = ['fable55-the-moss-keeper', 'fable55-the-last-page', ...Array.from({ length: 12 }, (_, n) => `fable55-example-${n + 3}`)];
 
-function fixture() {
-  const cases = Object.fromEntries(slugs.toReversed().map((slug) => [slug, {
+function fixture(selectedSlugs = slugs) {
+  const cases = Object.fromEntries(selectedSlugs.toReversed().map((slug) => [slug, {
     slug, category: 'video', title: `Title ${slug}`, description: `Description ${slug}`,
     prompt: '  Original prompt.\n\nSecond line.  ', privateField: 'DO NOT EXPORT',
-    discovery: { modelIds: ['claude-fable-5-5'], popularPinOrder: slugs.indexOf(slug) + 1,
+    discovery: { modelIds: ['claude-fable-5-5'], popularPinOrder: selectedSlugs.indexOf(slug) + 1,
       source: { modelId: 'claude-fable-5-5', url: 'https://x.com/example/status/123', authorName: 'Original Author', authorUrl: 'https://x.com/example' } },
     result: { kind: 'video', coverAssetIndex: 0, assets: [{ kind: 'video', url: 'https://agent-imagex.pagepop.cn/example.mp4', coverUrl: 'https://agent-imagex.pagepop.cn/example.jpg' }] },
   }]));
   const catalogs = Object.fromEntries(locales.map(locale => [locale, {
-    locale, cases: slugs.map(ref => locale === 'en-US' ? ref : { ref, title: `${locale} title`, description: `${locale} description`, prompt: 'Translated prompt must not replace original' }),
+    locale, cases: selectedSlugs.map(ref => locale === 'en-US' ? ref : { ref, title: `${locale} title`, description: `${locale} description`, prompt: 'Translated prompt must not replace original' }),
   }]));
   return { shared: { schemaVersion: 1, cases }, catalogs };
 }
@@ -49,16 +51,66 @@ test('fails explicitly when a required locale, localized field, prompt or attrib
   assert.throws(() => importCatalog(noAuthor.shared, noAuthor.catalogs), /authorUrl/);
 });
 
-test('rejects missing cases, duplicate ordering and a non-production CDN before export', () => {
+test('rejects empty collections, duplicate ordering and a non-production CDN before export', () => {
   const missing = fixture();
-  delete missing.shared.cases[slugs[0]!];
-  assert.throws(() => importCatalog(missing.shared, missing.catalogs), /14/);
+  missing.shared.cases = {};
+  assert.throws(() => importCatalog(missing.shared, missing.catalogs), /nonempty/);
   const duplicate = fixture();
   duplicate.shared.cases[slugs[1]!]!.discovery.popularPinOrder = 1;
   assert.throws(() => importCatalog(duplicate.shared, duplicate.catalogs), /popularPinOrder/);
   const badCdn = fixture();
   badCdn.shared.cases[slugs[0]!]!.result.assets[0]!.url = 'https://staging.example/video.mp4';
   assert.throws(() => importCatalog(badCdn.shared, badCdn.catalogs), /agent-imagex.pagepop.cn/);
+});
+
+test('imports and renders a nonempty collection at any size, including fewer previews than a full row', () => {
+  for (const count of [1, 3, 17]) {
+    const names = Array.from({ length: count }, (_, index) => `fable55-daily-example-${index + 1}`);
+    const { shared, catalogs } = fixture(names);
+    const data = importCatalog(shared, catalogs);
+    assert.deepEqual(data.cases.map(entry => entry.slug), names);
+    const files = renderFiles(data);
+    assert.equal(files.size, locales.length + count);
+    assert.equal((files.get('README.md')!.match(/<img /g) ?? []).length, Math.min(count, 6));
+  }
+  const data = importCatalog(fixture().shared, fixture().catalogs);
+  assert.throws(() => validateData({ ...data, cases: [] }), /nonempty/);
+});
+
+test('preserves explicit prompt provenance and distinguishes editorial recreation briefs from source prompts', () => {
+  const { shared, catalogs } = fixture();
+  Object.assign(shared.cases[slugs[0]!]!, { promptKind: 'pagepop-recreation' });
+  Object.assign(shared.cases[slugs[1]!]!, { promptKind: 'original' });
+  const data = importCatalog(shared, catalogs);
+  assert.equal(data.cases[0]!.promptKind, 'pagepop-recreation');
+  assert.equal(data.cases[1]!.promptKind, 'original');
+  assert.equal(data.cases[2]!.promptKind, undefined);
+  const files = renderFiles(data);
+  const recreated = files.get(`prompts/${slugs[0]}.md`)!;
+  assert.ok(recreated.includes('## Recreate in PagePop\n'));
+  assert.ok(recreated.includes(data.cases[0]!.prompt));
+  assert.ok(!recreated.includes('Original English prompt'));
+  assert.ok(!recreated.includes('preserved verbatim'));
+  assert.equal(recreated.split(data.cases[0]!.source.url).length - 1, 1);
+  assert.ok(!recreated.includes(`](${data.cases[0]!.source.authorUrl})`));
+  assert.ok(files.get(`prompts/${slugs[1]}.md`)!.includes('## Original English prompt'));
+  assert.ok(files.get(`prompts/${slugs[2]}.md`)!.includes('## Original English prompt'));
+  const invalid = structuredClone(data);
+  Object.assign(invalid.cases[0]!, { promptKind: 'copied-from-video' });
+  assert.throws(() => validateData(invalid), /promptKind/);
+  Object.assign(shared.cases[slugs[0]!]!, { promptKind: 'copied-from-video' });
+  assert.throws(() => importCatalog(shared, catalogs), /promptKind/);
+});
+
+test('published original prompts remain byte-identical as new examples are added', () => {
+  const hashes = JSON.parse(readFileSync(new URL('./original-prompt-hashes.json', import.meta.url), 'utf8')) as Record<string, string>;
+  const data = validateData(JSON.parse(readFileSync(new URL('../data/cases.json', import.meta.url), 'utf8')));
+  for (const [slug, expected] of Object.entries(hashes)) {
+    const entry = data.cases.find(entry => entry.slug === slug);
+    assert.ok(entry, `Published original missing: ${slug}`);
+    assert.notEqual(entry.promptKind, 'pagepop-recreation', `Original prompt relabeled: ${slug}`);
+    assert.equal(createHash('sha256').update(entry.prompt).digest('hex'), expected, `Original prompt changed: ${slug}`);
+  }
 });
 
 test('public validator rejects private fields, extra locales and incorrect localized routes', () => {

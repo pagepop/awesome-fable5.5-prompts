@@ -50,4 +50,4 @@ async function assertNoMedia(directory: string): Promise<void> {
   }
 }
 await assertNoMedia(root);
-console.log('Integrity passed: public-field whitelist, 14 prompts, 9 locales, exact generated files, 6 previews per locale, local links, production CDN URLs, attribution, and no video binaries.');
+console.log(`Integrity passed: public-field whitelist, ${data.cases.length} prompts with provenance, localized generated files, local links, production CDN URLs, attribution, and no video binaries.`);

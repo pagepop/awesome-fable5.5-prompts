@@ -9,6 +9,7 @@ export const MODEL = { id: 'claude-fable-5-5', name: 'Claude Fable 5.5' } as con
 export type LocalizedCase = { title: string; description: string; detailUrl: string; topicUrl: string };
 export type PublicCase = {
   slug: string; title: string; description: string; prompt: string; videoUrl: string; coverUrl: string;
+  promptKind?: 'original' | 'pagepop-recreation';
   source: { url: string; authorName: string; authorUrl: string };
   locales: Record<Locale, LocalizedCase>;
 };
@@ -27,8 +28,8 @@ function string(value: unknown, label: string): string {
   if (typeof value !== 'string' || value.trim().length === 0) throw new Error(`${label}: required nonempty string`);
   return value;
 }
-function exactKeys(value: JsonObject, keys: readonly string[], label: string): void {
-  for (const key of Object.keys(value)) if (!keys.includes(key)) throw new Error(`${label}: unexpected field ${key}`);
+function exactKeys(value: JsonObject, keys: readonly string[], label: string, optional: readonly string[] = []): void {
+  for (const key of Object.keys(value)) if (!keys.includes(key) && !optional.includes(key)) throw new Error(`${label}: unexpected field ${key}`);
   for (const key of keys) if (!(key in value)) throw new Error(`${label}: missing ${key}`);
 }
 function https(value: unknown, label: string, hosts: readonly string[]): string {
@@ -52,11 +53,14 @@ export function validateData(value: unknown): PublicData {
   exactKeys(model, ['id', 'name'], 'model');
   if (model.id !== MODEL.id || model.name !== MODEL.name) throw new Error('Unexpected model');
   const cases = array(data.cases, 'cases');
-  if (cases.length !== 14) throw new Error(`Expected exactly 14 cases, received ${cases.length}`);
+  if (cases.length === 0) throw new Error('Expected a nonempty case collection');
   const seen = new Set<string>();
   for (const [index, raw] of cases.entries()) {
     const entry = object(raw, `cases[${index}]`);
-    exactKeys(entry, ['slug', 'title', 'description', 'prompt', 'videoUrl', 'coverUrl', 'source', 'locales'], `cases[${index}]`);
+    exactKeys(entry, ['slug', 'title', 'description', 'prompt', 'videoUrl', 'coverUrl', 'source', 'locales'], `cases[${index}]`, ['promptKind']);
+    if ('promptKind' in entry && entry.promptKind !== 'original' && entry.promptKind !== 'pagepop-recreation') {
+      throw new Error(`cases[${index}].promptKind: expected original or pagepop-recreation`);
+    }
     const slug = string(entry.slug, 'slug');
     if (!/^fable55-[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) || seen.has(slug)) throw new Error(`Invalid or duplicate slug: ${slug}`);
     seen.add(slug);
@@ -87,9 +91,6 @@ export function validateData(value: unknown): PublicData {
     const english = object(localized['en-US'], `${slug}.en-US`);
     if (english.title !== entry.title || english.description !== entry.description) throw new Error(`${slug}: English metadata mismatch`);
   }
-  if (object(cases[0], 'first case').slug !== 'fable55-the-moss-keeper' || object(cases[1], 'second case').slug !== 'fable55-the-last-page') {
-    throw new Error('Expected The Moss Keeper first and The Last Page second');
-  }
   return data as unknown as PublicData;
 }
 
@@ -101,7 +102,7 @@ export function importCatalog(sharedValue: unknown, catalogsValue: unknown): Pub
     const discovery = object(entry.discovery, `${String(entry.slug)}.discovery`);
     return array(discovery.modelIds, `${String(entry.slug)}.modelIds`).includes(MODEL.id);
   });
-  if (entries.length !== 14) throw new Error(`Expected exactly 14 ${MODEL.id} cases, received ${entries.length}`);
+  if (entries.length === 0) throw new Error(`Expected a nonempty ${MODEL.id} case collection`);
   const pins = new Set<number>();
   for (const entry of entries) {
     const pin = object(entry.discovery, `${String(entry.slug)}.discovery`).popularPinOrder;
@@ -147,6 +148,7 @@ export function importCatalog(sharedValue: unknown, catalogsValue: unknown): Pub
     return {
       slug, title: locales['en-US'].title, description: locales['en-US'].description,
       prompt: string(entry.prompt, `${slug}.prompt`),
+      ...('promptKind' in entry ? { promptKind: entry.promptKind } : {}),
       videoUrl: string(asset.url, `${slug}.videoUrl`), coverUrl: string(asset.coverUrl, `${slug}.coverUrl`),
       source: { url: string(source.url, `${slug}.source.url`), authorName: string(source.authorName, `${slug}.source.authorName`), authorUrl: string(source.authorUrl, `${slug}.source.authorUrl`) },
       locales,

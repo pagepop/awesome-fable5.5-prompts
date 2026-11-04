@@ -10,4 +10,4 @@ for (const [name, content] of renderFiles(data)) {
   await mkdir(dirname(path), { recursive: true });
   await writeFile(path, content);
 }
-console.log('Generated 9 localized READMEs and 14 complete prompt documents from public data.');
+console.log(`Generated localized READMEs and ${data.cases.length} prompt documents from public data.`);

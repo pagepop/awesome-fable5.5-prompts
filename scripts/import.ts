@@ -21,9 +21,9 @@ const output = `${JSON.stringify(data, null, 2)}\n`;
 const destination = fileURLToPath(new URL('../data/cases.json', import.meta.url));
 if (check) {
   if (await readFile(destination, 'utf8') !== output) throw new Error('Public export differs from source; re-import and review changes');
-  console.log('Source integrity passed: 14 exact original prompts, 9 locales, attribution and CDN URLs match.');
+  console.log(`Source integrity passed: ${data.cases.length} exact prompt texts and provenance, ${LOCALES.length} locales, attribution and CDN URLs match.`);
 } else {
   await mkdir(fileURLToPath(new URL('../data/', import.meta.url)), { recursive: true });
   await writeFile(destination, output);
-  console.log('Exported 14 cases and 9 locales to data/cases.json.');
+  console.log(`Exported ${data.cases.length} cases and ${LOCALES.length} locales to data/cases.json.`);
 }
